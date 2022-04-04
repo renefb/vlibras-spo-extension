@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "v-libras-widget-spo-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/vLibrasWidgetSpo/VLibrasWidgetSpoApplicationCustomizer.js",
+          "manifest": "./src/extensions/vLibrasWidgetSpo/VLibrasWidgetSpoApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "VLibrasWidgetSpoApplicationCustomizerStrings": "lib/extensions/vLibrasWidgetSpo/loc/{locale}.js"
+  }
+}

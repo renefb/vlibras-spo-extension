@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/Main/SitePages/TestandoVLibras.aspx",
+      "customActions": {
+        "aceadc66-6094-44dc-b6fe-0edb722178d9": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "widgetPositionTopValue": "63",
+            "widgetPositionTopMeasure": "percent",
+            "widgetPositionRightValue": "20",
+            "widgetPositionRightMeasure": "px",
+            "widgetScriptSrc": "https://vlibras.gov.br/app/vlibras-plugin.js"
+          }
+        }
+      }
+    },
+    "vLibrasWidgetSpo": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/Main/SitePages/TestandoVLibras.aspx",
+      "customActions": {
+        "aceadc66-6094-44dc-b6fe-0edb722178d9": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "widgetPositionTopValue": "63",
+            "widgetPositionTopMeasure": "percent",
+            "widgetPositionRightValue": "20",
+            "widgetPositionRightMeasure": "px",
+            "widgetScriptSrc": "https://vlibras.gov.br/app/vlibras-plugin.js"
+          }
+        }
+      }
+    }
+  }
+}

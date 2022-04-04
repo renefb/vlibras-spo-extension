@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="VLibrasWidgetSpo"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="aceadc66-6094-44dc-b6fe-0edb722178d9"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

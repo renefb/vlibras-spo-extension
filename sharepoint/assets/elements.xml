@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="VLibrasWidgetSpo"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="aceadc66-6094-44dc-b6fe-0edb722178d9"
+        ClientSideComponentProperties="{&quot;widgetPositionTopValue&quot;: &quot;63&quot;, &quot;widgetPositionTopMeasure&quot;: &quot;percent&quot;, &quot;widgetPositionRightValue&quot;: &quot;20&quot;, &quot;widgetPositionRightMeasure&quot;: &quot;px&quot;, &quot;widgetScriptSrc&quot;: &quot;https://vlibras.gov.br/app/vlibras-plugin.js&quot;}">
+    </CustomAction>
+</Elements>
